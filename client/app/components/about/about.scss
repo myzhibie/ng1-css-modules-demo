@@ -1,0 +1,11 @@
+//嵌套定义,只需要写类名即可，不需要嵌套调用
+.sec {
+    .about {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+}
+
+.header {
+    color: red;
+}

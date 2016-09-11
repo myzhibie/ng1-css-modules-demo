@@ -1,0 +1,13 @@
+<navbar></navbar>
+<div>
+  <h1>{{ $ctrl.searchTitle }}</h1>
+  <search-field></search-field>
+  <div>
+    <ul class="search-ul">
+      <li ng-repeat="item in $ctrl.messages" ng-click="$ctrl.doSelect(item.key+'-'+item.val)">
+        {{item.key+"-"+item.val}}
+      </li>
+    </ul>
+  </div>
+  <show-action></show-action>
+</div>
