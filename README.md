@@ -66,7 +66,7 @@ attrs.html
   <directive-b directive-a></directive-b>
 </div>
 ```
-###Global css
+###global css
 Global css is same as scoped css except css declarations.
 index.scss
 ```css
